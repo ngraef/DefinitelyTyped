@@ -68,6 +68,7 @@ declare namespace restangular {
     setRequestSuffix(suffix: string): void;
     setUseCannonicalId(useCannonicalId: boolean): void;
     setEncodeIds(encode: boolean): void;
+    setPlainByDefault(plain: boolean): void;
   }
 
   interface ICustom {
